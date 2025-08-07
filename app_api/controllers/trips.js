@@ -40,7 +40,7 @@ const tripsFindByCode = async(req, res) => {
         .exec();
 
         //uncomment next line to show results in console
-        //console.log(q);
+        console.log(q);
 
     if (!q)
     { // Database returned no results
