@@ -61,7 +61,7 @@ export class EditTrip implements OnInit {
           console.log(this.message);
         },
         error: (error:any) => {
-          console.log('Error: ' + error);
+          console.log('Error: ', error);
         }
       })
   }
@@ -76,7 +76,7 @@ export class EditTrip implements OnInit {
           this.router.navigate(['']);
         },
         error: (error: any) => {
-          console.log('Error: ' + error);
+          console.log('Error: ', error);
         }
       })
     }

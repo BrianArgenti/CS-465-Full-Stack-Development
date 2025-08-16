@@ -77,7 +77,7 @@ const tripsUpdateTrip = async(req, res) => {
     if(!q) { // Database returned no results
         return res
             .status(400)
-            .json(err);
+            .json({ "message": "Trip not found" });
         } else { // Return resulting updated trip
             return res
                 .status(201)
