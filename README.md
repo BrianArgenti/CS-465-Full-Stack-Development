@@ -50,3 +50,7 @@
    - Clear and understanble routes make up the endpoints of the SPA
    - Security in the case of this project is handled with a JWT which is issued at the time of login. Protected routes require `Authorization: Bearer <token>`. 
   
+# Reflection
+Completing this project has helped me solidify the core concepts of implementing a full MEAN stack application. By designing and building both the RESTful APIs and the Angular single-page application, I gained hands-on experience with JavaScript on the backend and the Angular framework on the frontend. Developing reusable components, refactoring the codebase, and applying TypeScript for stronger typing gave me practical insight into how these tools work together to create a dynamic, reactive, and maintainable web application.
+
+This project also reinforced the importance of version control and collaborative workflows. I became more comfortable branching, testing, and merging code into the main branch, which mirrors real-world practices used in professional development teams. Overall, the experience has not only deepened my technical understanding of APIs, SPAs, and full-stack architecture, but also increased my confidence in contributing effectively to a team environment where code quality, testing, and maintainability are critical. 
